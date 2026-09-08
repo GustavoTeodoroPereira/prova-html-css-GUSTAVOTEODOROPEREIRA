@@ -1,0 +1,106 @@
+
+body {
+font-family: Arial, sans-serif; /* erro de sintaxe, faltava fechar a tag com ; */
+background-color: #f4f4f4;
+margin: 0px;
+padding: 0; /* erro de sintaxe, faltava colocar ":" para definir o padding */
+}
+
+header {
+background-color: #333; /* erro de sintaxe, faltava fechar a tag com ; */
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+h1 {
+font-size: 2em;
+color: white; /*erro de digitação, color estava escrito errado "colr"*/
+}
+
+nav ul {
+list-style-type: none;
+display: flex;
+justify-content: center; /*erro de sintaxe, faltava o ':' */
+padding: 0;
+}
+
+nav ul li {
+margin: 0 15px;
+
+}
+nav ul li a {
+color: white;
+text-decoration: none; /*erro de sintaxe, faltava o ';' */
+font-weight: bold;
+}
+
+nav ul li a:hover {
+color: #ffcc00; /*erro de sintaxe, faltava o ';' */
+text-decoration: underline;
+}
+section {
+padding: 20px;
+margin: 20px auto;
+max-width: 800px;
+background: #fff;
+border-radius: 5px; /*erro de sintaxe, faltava o ';' */
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.destaque {
+font-weight: bold;
+color: #e74c3c; /*erro de sintaxe, faltava o '#' para definir a cor */
+font-size: 18px; /*erro de sintaxe, faltava o ':' */
+}
+
+.galeria {
+display: flex; 
+gap: 10px; 
+}
+
+img {
+width: 100%; /*erro de sintaxe, faltava o ':' */
+height: auto;
+border-radius: 5px;
+}
+
+form label {
+display: block;
+margin-top: 10px; /*erro de sintaxe, faltava o ';' */
+font-weight: bold;
+}
+
+form input {
+width: 100%;
+padding: 8px;
+margin-top: 5px; /*erro de sintaxe, faltava o ':' */
+border: 1px solid #ccc; /*erro de sintaxe, faltava o ';' */
+border-radius: 4px;
+}
+
+button {
+background-color: #27ae60;
+color: white;
+border: none; /*erro de sintaxe, faltava o ';' */
+padding: 10px 20px;
+margin-top: 15px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #2ecc71; /*erro de sintaxe, faltava o ':' */
+}
+
+footer {
+text-align: center;
+padding: 15px;
+background-color: #333;
+color: white; /*erro de sintaxe, faltava o ';' */
+} /*erro de identação faltava fechar a chaves "}" */
+
+.card {
+display: flex; /*erro de sintaxe, faltava o ';' */
+flex-direction: column;
+gap: 10px;
+}
