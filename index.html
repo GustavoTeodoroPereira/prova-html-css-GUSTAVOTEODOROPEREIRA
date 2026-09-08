@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!-- erro de digitação, deve ser <!DOCTYPE html> (faltava um L em html) -->
+<html lang="en"> <!-- erro de digitação, deve ser <html lang="en" (faltava um g em lang)> -->
+<head>
+    <meta charset="UTF-8">
+    <title>Portal do Aluno</title> <!-- erro de sintaxe, deve ser <title>Portal do Aluno</title> (faltava fechar a tag com >) -->
+    <link rel="stylesheet" href="style.css"> <!-- erro de sintaxe, o nome do arquivo estava incorreto -->
+</head>
+<body> <!-- erro de digitação, deve ser <body> (faltava o y em body) -->
+    <header>
+        <h1>Bem-vindo ao Portal do Aluno</h1> <!-- erro de sintaxe, a tag estava aberta como h1 mas fechada como h2 -->
+        <nav>
+          <ul>
+            <li><a href="#home">Início</a></li> <!-- erro de sintaxe, faltava fechar a tag </a> -->
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#cursos">Cursos</a></li> <!-- erro de sintaxe, faltava fechar a tag </li> -->
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+    </header>
+
+<main>
+    <section id="home">
+        <h2>Nossos Cursos</h2> <!-- erro de sintaxe, a tag estava aberta como h2 mas fechada como h3 -->
+        <p class="destaque">Conheça os melhores cursos técnicos da região.</p> <!-- erro de sintaxe, a class faltava um '=' na frente-->
+        <img src="curso.jpg" alt="Curso de desenvolvimento">
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma escola técnica com <strong>mais de 10 anos</strong> de
+experiência no mercado.</p> <!-- erro de sintaxe, faltava fechar a tag strong com um > -->
+    </section>
+
+    <section id="Galeria"> 
+        <h2>Galeria de Imagens</h2>
+        <img src="imagem1.jpg" alt="Imagem 1">
+        <img src="imagem2.jpg" alt="Imagem 2">
+    </section>
+
+    <section id="cursos">
+        <h2>Lista de Cursos</h2>
+        <ul>
+         <li>Desenvolvimento de Sistemas</li> <!-- erro de sintaxe, faltava fechar a tag li "</li>" -->
+         <li>Redes de Computadores</li>
+         <li>Administração</li>
+        </ul>
+    </section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <form action="/enviar" method="post"> <!-- erro de sintaxe, method escrito errado "metod" faltava um 'h' -->
+      <label for="nome">Nome:</label>
+
+      <input type="text" id="nome" name="nome">
+      <label for="email">E-mail:</label> <!-- erro de sintaxe, faltava fechar a tag label com um < -->
+      <input type="email" id="email" name="email"> <!-- tipo de texto escrito errado "emial", o correto é email-->
+      <button type="submit">Enviar</button><!-- erro de sintaxe, Faltava fechar a tag button com um / -->
+    </form>
+    </section>
+ </main>
+
+ <footer>
+    <p>&copy 2025 Escola Técnica. Todos os direitos reservados.</p>
+ </footer>
+</html>
